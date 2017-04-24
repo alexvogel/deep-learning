@@ -497,9 +497,9 @@ rnn_size = 128
 # Number of Layers
 num_layers = 2
 # Embedding Size
-# should be aprox. the size of source_id_text and target_id_text
-encoding_embedding_size = 10000
-decoding_embedding_size = 10000
+# should be aprox. the size of unique words
+encoding_embedding_size = 227
+decoding_embedding_size = 227
 # Learning Rate
 learning_rate = 0.001
 # Dropout Keep Probability
